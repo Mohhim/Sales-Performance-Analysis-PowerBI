@@ -4,31 +4,29 @@ An interactive **Power BI portfolio project** analyzing sales trends, product pe
 
 > **Dataset notice:** All data is synthetic and used for educational and portfolio demonstration purposes. Findings do not represent a real company's performance.
 
+
 ## Dashboard Preview
 
 ### 1. Sales Overview
 
 ![Sales Overview Dashboard](Page_1.png)
 
-The overview page provides KPIs for sales, costs, profit, profit margin, order count, and average order value, along with monthly sales trends and comparisons by product and region. Date, region, and category slicers support interactive exploration.
+The dashboard displays sales KPIs, monthly trends,
+product performance, and regional comparisons.
 
 ### 2. Profitability Analysis
 
 ![Profitability Analysis Dashboard](Page_2.png)
 
-This page compares total profit and profit margin by product, total profit by region, and sales versus profit by category. It highlights the distinction between **high-profit products** and **high-margin products**.
+This page analyzes product profitability, profit margins,
+regional performance, and category comparisons.
 
 ### 3. Data Model
 
 ![Power BI Data Model](Model_View.png)
 
-The model follows a simple **star schema** with the `Sales` fact table linked to three dimension tables:
-
-- `Date` — calendar-based reporting and monthly analysis
-- `Product` — product and category attributes
-- `Region` — geographic comparisons
-
-The relationships are one-to-many from each dimension to `Sales`.
+The model uses a star schema with Sales as the fact table
+and Date, Product, and Region as dimension tables.
 
 ## Project Objectives
 
@@ -109,17 +107,15 @@ The report also includes sales-contribution and profit-contribution measures for
 3. Investigate the factors behind regional profit differences rather than assuming the highest-profit region is the most efficient.
 4. Monitor monthly sales trends and investigate unusual changes.
 
-## Repository Structure
 
-```text
 Sales-Performance-Analysis-PowerBI/
 ├── README.md
 ├── Sales Analysis Projict.pbix
-└── screenshots/
-    ├── Page_1.png
-    ├── Page_2.png
-    └── Model_View.png
-```
+├── powerbi_sales_project_data.csv
+├── Page_1.png
+├── Page_2.png
+└── Model_View.png
+
 
 *Optional:* Add the synthetic CSV source in a `data/` directory for reproducibility.
 
