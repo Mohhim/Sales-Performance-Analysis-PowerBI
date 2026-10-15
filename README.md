@@ -8,19 +8,19 @@ An interactive **Power BI portfolio project** analyzing sales trends, product pe
 
 ### 1. Sales Overview
 
-![Sales Overview Dashboard](screenshots/Page_1.png)
+![Sales Overview Dashboard](Page_1.png)
 
 The overview page provides KPIs for sales, costs, profit, profit margin, order count, and average order value, along with monthly sales trends and comparisons by product and region. Date, region, and category slicers support interactive exploration.
 
 ### 2. Profitability Analysis
 
-![Profitability Analysis Dashboard](screenshots/Page_2.png)
+![Profitability Analysis Dashboard](Page_2.png)
 
 This page compares total profit and profit margin by product, total profit by region, and sales versus profit by category. It highlights the distinction between **high-profit products** and **high-margin products**.
 
 ### 3. Data Model
 
-![Power BI Data Model](screenshots/Model_View.png)
+![Power BI Data Model](Model_View.png)
 
 The model follows a simple **star schema** with the `Sales` fact table linked to three dimension tables:
 
