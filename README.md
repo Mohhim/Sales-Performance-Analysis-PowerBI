@@ -3,9 +3,21 @@ Interactive Power BI dashboard for sales performance and profitability analysis
 
 ## Project Overview
 
+
 An interactive Power BI dashboard developed to analyze sales performance, profitability, product trends, and regional performance.
 
 The project demonstrates an end-to-end business intelligence workflow, from data preparation and modeling to DAX calculations, dashboard development, and business insights.
+
+## Dashboard Screenshots
+
+### Sales Overview
+![Sales Overview](screenshots/Page_1.png)
+
+### Profitability Analysis
+![Profitability Analysis](screenshots/Page_2.png)
+
+### Data Model
+![Data Model](screenshots/model_View.png)
 
 ## Tools & Technologies
 
