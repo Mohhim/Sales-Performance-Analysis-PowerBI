@@ -117,8 +117,6 @@ Sales-Performance-Analysis-PowerBI/
 └── Model_View.png
 
 
-*Optional:* Add the synthetic CSV source in a `data/` directory for reproducibility.
-
 ## How to Explore the Report
 
 1. Download `Sales Analysis Projict.pbix` from this repository.
