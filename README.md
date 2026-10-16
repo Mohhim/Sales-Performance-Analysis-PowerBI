@@ -108,6 +108,10 @@ The report also includes sales-contribution and profit-contribution measures for
 4. Monitor monthly sales trends and investigate unusual changes.
 
 
+
+## Repository Structure
+
+```text
 Sales-Performance-Analysis-PowerBI/
 ├── README.md
 ├── Sales Analysis Projict.pbix
@@ -115,6 +119,8 @@ Sales-Performance-Analysis-PowerBI/
 ├── Page_1.png
 ├── Page_2.png
 └── Model_View.png
+```
+
 
 
 ## How to Explore the Report
